@@ -19,3 +19,6 @@ Component = styled.div.withConfig({
 const WrappedComponent = styled(Inner).withConfig({
   displayName: 'WrappedComponent'
 })``;
+const ExtendedComponent = Inner.withConfig({
+  displayName: 'ExtendedComponent'
+}).extend``;

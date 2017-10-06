@@ -9,3 +9,5 @@ const NamedWithInterpolation = styled.div`
 `;
 
 const Wrapped = styled(Inner)`color: red;`;
+
+const Extended = Inner.extend`color: red;`;

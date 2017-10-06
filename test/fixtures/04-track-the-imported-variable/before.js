@@ -6,3 +6,4 @@ const styles = { One: s.div`` }
 let Component;
 Component = s.div``;
 const WrappedComponent = s(Inner)``;
+const ExtendedComponent = s.extend``;
